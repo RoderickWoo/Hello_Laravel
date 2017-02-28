@@ -1,0 +1,42 @@
+2017/02/28 16:40:52 heroku-cli/5.6.8-9647e01 (linux-amd64) go1.7.4 /usr/lib/heroku/bin/heroku cmd: login
+2017/02/28 16:40:52 Email: 
+2017/02/28 16:41:50  ▸    Post https://api.heroku.com/login: dial tcp: lookup api.heroku.com on 10.0.2.3:53: read udp 10.0.2.15:33794->10.0.2.3:53: i/o timeout
+2017/02/28 16:41:50 Post https://api.heroku.com/login: dial tcp: lookup api.heroku.com on 10.0.2.3:53: read udp 10.0.2.15:33794->10.0.2.3:53: i/o timeout
+
+/home/ubuntu/.go_workspace/src/github.com/heroku/cli/io.go:328 (0x4157e0)
+/usr/local/go/src/runtime/asm_amd64.s:479 (0x47e1ec)
+/usr/local/go/src/runtime/panic.go:458 (0x450cc3)
+/home/ubuntu/.go_workspace/src/github.com/heroku/cli/io.go:184 (0x41490c)
+/home/ubuntu/.go_workspace/src/github.com/heroku/cli/auth.go:326 (0x404535)
+/home/ubuntu/.go_workspace/src/github.com/heroku/cli/auth.go:261 (0x403ba7)
+/home/ubuntu/.go_workspace/src/github.com/heroku/cli/auth.go:208 (0x403322)
+/home/ubuntu/.go_workspace/src/github.com/heroku/cli/start.go:70 (0x41de1e)
+/home/ubuntu/.go_workspace/src/github.com/heroku/cli/main.go:22 (0x41661a)
+/usr/local/go/src/runtime/proc.go:183 (0x452994)
+/usr/local/go/src/runtime/asm_amd64.s:2086 (0x480d31)
+
+2017/02/28 16:42:00 triggering background update
+2017/02/28 16:42:00 heroku-cli/5.6.8-9647e01 (linux-amd64) go1.7.4 /usr/lib/heroku/bin/heroku cmd: update
+2017/02/28 16:42:00 heroku-cli: Updating plugins...
+2017/02/28 16:42:00  done
+2017/02/28 16:42:27 heroku-cli/5.6.8-9647e01 (linux-amd64) go1.7.4 /usr/lib/heroku/bin/heroku cmd: keys:add
+2017/02/28 16:42:27 Email: 
+2017/02/28 16:43:30  ▸    Post https://api.heroku.com/login: dial tcp: lookup api.heroku.com on 10.0.2.3:53: read udp 10.0.2.15:37366->10.0.2.3:53: i/o timeout
+2017/02/28 16:43:30 Post https://api.heroku.com/login: dial tcp: lookup api.heroku.com on 10.0.2.3:53: read udp 10.0.2.15:37366->10.0.2.3:53: i/o timeout
+
+/home/ubuntu/.go_workspace/src/github.com/heroku/cli/io.go:328 (0x4157e0)
+/usr/local/go/src/runtime/asm_amd64.s:479 (0x47e1ec)
+/usr/local/go/src/runtime/panic.go:458 (0x450cc3)
+/home/ubuntu/.go_workspace/src/github.com/heroku/cli/io.go:184 (0x41490c)
+/home/ubuntu/.go_workspace/src/github.com/heroku/cli/auth.go:326 (0x404535)
+/home/ubuntu/.go_workspace/src/github.com/heroku/cli/auth.go:261 (0x403ba7)
+/home/ubuntu/.go_workspace/src/github.com/heroku/cli/auth.go:402 (0x404d25)
+/home/ubuntu/.go_workspace/src/github.com/heroku/cli/context.go:77 (0x409127)
+/home/ubuntu/.go_workspace/src/github.com/heroku/cli/start.go:68 (0x41dde2)
+/home/ubuntu/.go_workspace/src/github.com/heroku/cli/main.go:22 (0x41661a)
+/usr/local/go/src/runtime/proc.go:183 (0x452994)
+/usr/local/go/src/runtime/asm_amd64.s:2086 (0x480d31)
+
+2017/02/28 16:44:02 heroku-cli/5.6.8-9647e01 (linux-amd64) go1.7.4 /usr/lib/heroku/bin/heroku cmd: keys:add
+2017/02/28 16:44:02 Email: 
+2017/02/28 16:45:17 heroku-cli/5.6.8-9647e01 (linux-amd64) go1.7.4 /usr/lib/heroku/bin/heroku cmd: keys:add
