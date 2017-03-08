@@ -40,3 +40,29 @@
 2017/02/28 16:44:02 heroku-cli/5.6.8-9647e01 (linux-amd64) go1.7.4 /usr/lib/heroku/bin/heroku cmd: keys:add
 2017/02/28 16:44:02 Email: 
 2017/02/28 16:45:17 heroku-cli/5.6.8-9647e01 (linux-amd64) go1.7.4 /usr/lib/heroku/bin/heroku cmd: keys:add
+2017/02/28 16:50:16 heroku-cli/5.6.8-9647e01 (linux-amd64) go1.7.4 /usr/lib/heroku/bin/heroku cmd: create
+2017/02/28 16:51:22 heroku-cli/5.6.8-9647e01 (linux-amd64) go1.7.4 /usr/lib/heroku/bin/heroku cmd: buildpacks:set
+2017/02/28 16:55:21 heroku-cli/5.6.8-9647e01 (linux-amd64) go1.7.4 /usr/lib/heroku/bin/heroku cmd: config:set
+2017/02/28 16:55:21  ▸    Error: No app specified
+ ▸    Usage: heroku config:set --app APP
+ ▸    We don't know which app to run this on.
+ ▸    Run this command from inside an app folder or specify which app to use with --app APP
+ ▸    
+ ▸    https://devcenter.heroku.com/articles/using-the-cli#app-commands
+2017/02/28 16:56:28 heroku-cli/5.6.8-9647e01 (linux-amd64) go1.7.4 /usr/lib/heroku/bin/heroku cmd: config:set
+2017/02/28 23:22:20 heroku-cli/5.6.8-9647e01 (linux-amd64) go1.7.4 /usr/lib/heroku/bin/heroku cmd: open
+2017/02/28 23:22:26 Error: Error opening web browser.
+Error: Exited with code 3
+
+Manually visit https://infinite-forest-22987.herokuapp.com/ in your browser.
+    at err (/usr/lib/heroku/lib/node_modules/heroku-apps/node_modules/heroku-cli-util/lib/open.js:10:16)
+    at ChildProcess.<anonymous> (/usr/lib/heroku/lib/node_modules/opn/index.js:86:5)
+    at ChildProcess.g (events.js:286:16)
+    at emitTwo (events.js:106:13)
+    at ChildProcess.emit (events.js:191:7)
+    at maybeClose (internal/child_process.js:852:16)
+    at Process.ChildProcess._handle.onexit (internal/child_process.js:215:5)
+2017/02/28 23:22:27 triggering background update
+2017/02/28 23:22:27 heroku-cli/5.6.8-9647e01 (linux-amd64) go1.7.4 /usr/lib/heroku/bin/heroku cmd: update
+2017/02/28 23:22:29 heroku-cli: Updating plugins...
+2017/02/28 23:22:29  done

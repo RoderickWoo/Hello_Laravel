@@ -1,31 +1,3 @@
 {
-  "schema": 1,
-  "commands": [
-    {
-      "command": "keys:add",
-      "plugin": "heroku-apps",
-      "plugin_version": "2.1.20",
-      "timestamp": 1488300242,
-      "version": "5.6.8-9647e01",
-      "os": "linux",
-      "arch": "amd64",
-      "language": "node",
-      "status": 0,
-      "runtime": 54950,
-      "valid": true
-    },
-    {
-      "command": "keys:add",
-      "plugin": "heroku-apps",
-      "plugin_version": "2.1.20",
-      "timestamp": 1488300317,
-      "version": "5.6.8-9647e01",
-      "os": "linux",
-      "arch": "amd64",
-      "language": "node",
-      "status": 0,
-      "runtime": 9989,
-      "valid": true
-    }
-  ]
+  "schema": 1
 }
